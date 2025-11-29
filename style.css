@@ -1,0 +1,64 @@
+h1 {
+    color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+}
+h2 {
+    color:midnightblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+.hoofdtext{
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+button {
+    background-color:midnightblue;
+    color:goldenrod;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.Menu {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+}
+body {
+    background-color:cadetblue;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightskyblue;
+    position: fixed;
+    top: 0;
+    border-style: solid; 
+    border-color: rgb(23, 23, 89); 
+    border-width: 4px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+ul li {
+    display: inline-block;
+    float: none;
+}
+ul li a {
+    display: table;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul li a:hover {
+    background-color: rgb(34, 34, 141);
+}
+ul li a.active {
+    background-color: #04AA6D;
+}
