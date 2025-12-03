@@ -1,3 +1,4 @@
+@media (min-width: 769px) {
 h1 {
     color:white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -8,8 +9,14 @@ h2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 40px;
 }
+h3 {
+    color:midnightblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
 .hoofdtext{
-    color:white;
+    color:whitesmoke;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 17px;
 }
@@ -42,7 +49,7 @@ ul {
     border-width: 4px;
     padding: 10px;
     border-radius: 10px;
-    width: 80%;
+    width: 95%;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -59,6 +66,61 @@ ul li a {
 ul li a:hover {
     background-color: rgb(34, 34, 141);
 }
-ul li a.active {
-    background-color: #04AA6D;
+}
+@media (max-width: 768px) {
+    h1 {
+        color:white;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 60px;
+    }
+    h2 {
+        color:midnightblue;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 40px;
+    }
+    h3 {
+        color:midnightblue;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .hoofdtext{
+        color:whitesmoke;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 17px;
+    }
+    button {
+        background-color:midnightblue;
+        color:goldenrod;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 17px;
+    }
+    .Menu {
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 17px;
+    }
+    body {
+        background-color:cadetblue;
+        margin: 0;
+        padding: 0;
+    }
+    ul {
+        display: inline-block;
+        float: none;
+        list-style-type: none;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+      }
+      ul li a {
+        color: black;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+      ul li a:hover {
+        background-color: #555555;
+        color: white;
+      }
 }
