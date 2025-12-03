@@ -1,4 +1,4 @@
-@media (min-width: 769px) {
+@media screen and (min-width: 769px) {
     h1 {
         color: white;
         font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -67,7 +67,12 @@
         background-color: rgb(34, 34, 141);
     }
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    /* body {
+        max-width: 100vw;
+        display: inline;
+    } */
+
     h1 {
         color: white;
         font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -122,5 +127,12 @@
     ul li a:hover {
         background-color: #555555;
         color: white;
+    }
+    img {
+        width: 100vw;
+    }
+
+    h1 {
+        font-size: 40px;
     }
 }
