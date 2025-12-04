@@ -25,6 +25,9 @@ button {
     color:goldenrod;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 17px;
+    width:50%;
+    transform: translateX(50%);
+    padding-bottom: 5px;
 }
 .Menu {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -94,6 +97,8 @@ ul li a:hover {
         color:goldenrod;
         font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 17px;
+        width:100%;
+        padding-bottom: 5px;
     }
     .Menu {
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
