@@ -41,13 +41,6 @@ button {
 .Menu {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 17px;
-}
-body {
-    background-color:cadetblue;
-    margin: 0;
-    padding: 0;
-}
-ul {
     text-align: center;
     list-style-type: none;
     margin: 0;
@@ -65,19 +58,48 @@ ul {
     left: 50%;
     transform: translateX(-50%);
 }
-ul li {
+.Menu li {
     display: inline-block;
     float: none;
 }
-ul li a {
+.Menu li a {
     display: table;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
 }
-ul li a:hover {
+.Menu li a:hover {
     background-color: rgb(34, 34, 141);
 }
+body {
+    background-color:cadetblue;
+    margin: 0;
+    padding: 0;
+}
+
+.MemberList{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+}
+
+.MemberList li{
+    margin-bottom: 10px;
+    color:white;
+    font-family:fantasy;
+}
+
+.MemberList li::before {
+    content: "📚";
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 80%;
+    background-color:lightslategray;
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
+  }
 }
 @media (max-width: 768px) {
     h1 {
@@ -119,6 +141,14 @@ ul li a:hover {
     .Menu {
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 17px;
+        display: inline-block;
+        float: none;
+        list-style-type: none;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: lightskyblue;
     }
     body {
         background-color:cadetblue;
@@ -128,25 +158,15 @@ ul li a:hover {
     nav {
         width: 100%;
     }
-    ul {
-        display: inline-block;
-        float: none;
-        list-style-type: none;
-        text-align: center;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        background-color: lightskyblue;
-      }
-      ul li a {
+    .Menu li a {
         color: black;
         padding: 8px 16px;
         text-decoration: none;
-      }
-      ul li a:hover {
+    }
+    .Menu li a:hover {
         background-color: #555555;
         color: white;
-      }
+    }
 }
 @media (max-width: 380px) {
     h1 {
@@ -192,6 +212,14 @@ ul li a:hover {
     .Menu {
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 17px;
+        display: inline-block;
+        float: none;
+        list-style-type: none;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: lightskyblue;
     }
     body {
         background-color:cadetblue;
@@ -201,25 +229,15 @@ ul li a:hover {
     nav {
         width: 100%;
     }
-    ul {
-        display: inline-block;
-        float: none;
-        list-style-type: none;
-        text-align: center;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        background-color: lightskyblue;
-      }
-      ul li a {
+    .Menu li a {
         color: black;
         padding: 8px 16px;
         text-decoration: none;
-      }
-      ul li a:hover {
+    }
+    .Menu li a:hover {
         background-color: #555555;
         color: white;
-      }
+    }
 }
 @media (max-width: 350px){
     h1 {
@@ -265,6 +283,14 @@ ul li a:hover {
     .Menu {
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-size: 17px;
+        display: inline-block;
+        float: none;
+        list-style-type: none;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: lightskyblue;
     }
     body {
         background-color:cadetblue;
@@ -274,23 +300,13 @@ ul li a:hover {
     nav {
         width: 100%;
     }
-    ul {
-        display: inline-block;
-        float: none;
-        list-style-type: none;
-        text-align: center;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        background-color: lightskyblue;
-      }
-      ul li a {
+    .Menu li a {
         color: black;
         padding: 8px 16px;
         text-decoration: none;
-      }
-      ul li a:hover {
+    }
+    .Menu li a:hover {
         background-color: #555555;
         color: white;
-      }
+    }
 }
