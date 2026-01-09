@@ -1,9 +1,9 @@
-@media (min-width: 769px) {
 body {
     background-color: cadetblue;
     margin: 0;
     padding: 100px 0;
 }
+@media (min-width: 769px) {
 h1 {
     color:white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -70,11 +70,6 @@ button {
 }
 .Menu li a:hover {
     background-color: rgb(34, 34, 141);
-}
-body {
-    background-color:cadetblue;
-    margin: 0;
-    padding: 0;
 }
 
 .MemberList{
