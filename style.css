@@ -1,9 +1,9 @@
-body {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-}
 @media (min-width: 769px) {
+body {
+    background-color: cadetblue;
+    margin: 0;
+    padding: 100px 0;
+}
 h1 {
     color:white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
