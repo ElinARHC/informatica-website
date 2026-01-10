@@ -4,6 +4,12 @@ body {
     padding: 100px 0;
 }
 @media (min-width: 769px) {
+.MembersandGalery{
+    float:left;
+}
+.galeryimgs{
+    float:left;
+}
 h1 {
     color:white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
