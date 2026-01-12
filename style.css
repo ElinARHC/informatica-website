@@ -1,15 +1,42 @@
 body {
     background-color: cadetblue;
     margin: 0;
-    padding: 100px 0;
+    padding-top: 100px;
 }
 @media (min-width: 769px) {
+.Covers{
+    width:258px;
+    height: 400px;
+}
+.Coverfigs{
+    float: left;
+}
 .MembersandGalery{
     float:left;
+    width: 30%;
+}
+.Galeryfigs{
+    float:left;
+    width: 80%;
 }
 .galeryimgs{
-    float:left;
+    width: 100%;
+    height: auto;
 }
+.GaleryGermanLibrary{
+    float: left;
+    width: 40%;
+    padding:0;
+    margin:0;
+    border:0;
+}
+figcaption{
+    width: 69%;
+    color:whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+
 h1 {
     color:white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
