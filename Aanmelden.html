@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aanmelden</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul class="Menu">
+            <li><a href = "index.html"><img src="HomeButton.png" style=" width: 25px; height: 25px;"></a></li>
+            <li><a href="Overdeclub.html">Over de club</a></li>
+            <li><a href="Gelezenboeken.html">Gelezen boeken</a></li>
+        </ul>
+    </nav>
+    <h1>Aanmelden</h1>
+    <p class="hoofdtext">Vul het korte formulier hieronder in om je aan te melden</p>
+    <form action="./Aangemeld.html">
+        <div>
+        <label for="vnaam" class="hoofdtext">Voornaam:</label>
+        <input type="text" id="vnaam" naam = "vnaam" placeholder="Tim" required>
+        </div>
+
+        <div>
+        <label for="anaam" class="hoofdtext">Achternaam:</label>
+        <input type="text" id="anaam" naam = "anaam" placeholder="Berners-Lee" required>
+        </div>
+
+        <div>
+        <label for="email" class="hoofdtext">E-mailadres:</label>
+        <input type="email" id="email" naam = "email" placeholder="123456@gsf.nl" required>
+        </div>
+
+        <br>
+
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+</body>
+</html>

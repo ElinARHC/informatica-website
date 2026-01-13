@@ -2,8 +2,12 @@ body {
     background-color: cadetblue;
     margin: 0;
     padding-top: 100px;
+    padding-left: 5px;
 }
-@media (min-width: 769px) {
+.aangemeld{
+    text-align: center;
+}
+
 .Covers{
     width:258px;
     height: 400px;
@@ -11,32 +15,65 @@ body {
 .Coverfigs{
     float: left;
 }
-.MembersandGalery{
-    float:left;
-    width: 30%;
+
+input {
+    padding: 3px;
+    border-radius: 10px;
+    border-color: rgb(23, 23, 89);
+    border-width: 3px;
+    border-style: solid;
+    margin: 1px;
+  }
+
+.MemberList li::before {
+    content: "📚";
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 80%;
+    background-color:lightslategray;
+    color: white;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 3px;
 }
-.Galeryfigs{
-    float:left;
-    width: 80%;
-}
-.galeryimgs{
-    width: 100%;
-    height: auto;
-}
-.GaleryGermanLibrary{
-    float: left;
-    width: 40%;
-    padding:0;
-    margin:0;
-    border:0;
-}
-figcaption{
-    width: 69%;
-    color:whitesmoke;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 17px;
+.MemberList li{
+    margin-bottom: 10px;
+    color:white;
+    font-family:fantasy;
 }
 
+@media (min-width: 769px) {
+    .MembersandGalery{
+        float:left;
+        width: 30%;
+    }
+    .Galeryfigs{
+        float:left;
+        width: 80%;
+    }
+    .galeryimgs{
+        width: 100%;
+        height: auto;
+    }
+    .GaleryGermanLibrary{
+        float: left;
+        width: 40%;
+        padding:0;
+        margin:0;
+        border:0;
+    }
+    figcaption{
+        width: 69%;
+        color:whitesmoke;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 17px;
+    }
+    
+    .MemberList{
+        margin: 0;
+        padding: 0;
+        list-style-type:none;
+    }
 h1 {
     color:white;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -104,30 +141,6 @@ button {
 .Menu li a:hover {
     background-color: rgb(34, 34, 141);
 }
-
-.MemberList{
-    margin: 0;
-    padding: 0;
-    list-style-type:none;
-}
-
-.MemberList li{
-    margin-bottom: 10px;
-    color:white;
-    font-family:fantasy;
-}
-
-.MemberList li::before {
-    content: "📚";
-    margin-right: 5px;
-    margin-left: 5px;
-    font-size: 80%;
-    background-color:lightslategray;
-    color: white;
-    font-weight: bold;
-    padding: 3px 8px;
-    border-radius: 3px;
-  }
 }
 @media (max-width: 768px) {
     h1 {
