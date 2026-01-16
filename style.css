@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding-top: 100px;
     padding-left: 5px;
+    padding-bottom: 25px;
 }
 .aangemeld{
     text-align: center;
@@ -99,14 +100,17 @@ h3 {
     font-size: 17px;
     padding-left: 10px;
 }
-button {
-    background-color:midnightblue;
+.button {
     color:goldenrod;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 17px;
-    width:50%;
-    transform: translateX(50%);
-    padding-bottom: 5px;
+    padding: 5px;
+}
+.buttoncontainer{
+    background-color:midnightblue;
+    text-align: center;
+    margin:auto;
+    width: 50%;
 }
 .Menu {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -171,13 +175,17 @@ button {
     img {
         max-width: 100%;
     }
-    button {
-        background-color:midnightblue;
+    .button {
         color:goldenrod;
         font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 17px;
-        width:100%;
-        padding-bottom: 5px;
+        padding: 5px;
+    }
+    .buttoncontainer{
+        background-color:midnightblue;
+        text-align: center;
+        margin:auto;
+        width: 100%;
     }
     .Menu {
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -242,13 +250,17 @@ button {
     img {
         max-width: 100%;
     }
-    button {
-        background-color:midnightblue;
+    .button {
         color:goldenrod;
         font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 17px;
-        width:100%;
-        padding-bottom: 5px;
+        padding: 5px;
+    }
+    .buttoncontainer{
+        background-color:midnightblue;
+        text-align: center;
+        margin:auto;
+        width: 100%;
     }
     .Menu {
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -313,13 +325,17 @@ button {
     img {
         max-width: 100%;
     }
-    button {
-        background-color:midnightblue;
+    .button {
         color:goldenrod;
         font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 17px;
-        width:100%;
-        padding-bottom: 5px;
+        padding: 5px;
+    }
+    .buttoncontainer{
+        background-color:midnightblue;
+        text-align: center;
+        margin:auto;
+        width: 100%;
     }
     .Menu {
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
